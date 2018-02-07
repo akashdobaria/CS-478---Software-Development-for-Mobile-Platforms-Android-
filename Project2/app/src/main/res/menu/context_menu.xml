@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/show_full_image"
+        android:title="Show Image"/>
+    <item android:id="@+id/website_link"
+        android:title="Manufacturer's Website" />
+    <item android:id="@+id/dealers"
+        android:title="Show Dealers" />
+</menu>

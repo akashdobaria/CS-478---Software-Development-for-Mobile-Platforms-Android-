@@ -1,0 +1,178 @@
+{
+  "cars": [
+    {
+      "company" : "Ferrari",
+      "image" : "",
+      "url" : "",
+      "dealers" : [
+        {
+          "name" : "McLaren Chicago Showroom",
+          "address" : "645 W Randolph St, Chicago, IL 60661",
+          "contact" : "(312) 635-6482"
+        },
+        {
+          "name" : "Continental AutoSports",
+          "address" : "420 E Ogden Ave, Hinsdale, IL 60521",
+          "contact" : "(630) 480-41443"
+        },
+        {
+          "name" : "Mancuso Motorsports",
+          "address" : "677 N Clark St, Chicago, IL 60654",
+          "contact" : "(312) 624-8586"
+        }]
+    },
+    {
+      "company" : "Tesla",
+      "image" : "",
+      "url" : "",
+      "dealers" : [
+        {
+          "name" : "Tesla",
+          "address" : "1053 W Grand Ave, Chicago, IL 60642",
+          "contact" : "(312) 733-9780"
+        }]
+    },
+    {
+      "company" : "Land rover",
+      "image" : "",
+      "url" : "",
+      "dealers" : [
+        {
+          "name" : "Land Rover Chicago",
+          "address" : "1924 N Paulina St, Chicago, IL 60622",
+          "contact" : "(773) 227-3200"
+        },
+        {
+          "name" : "Land Rover Hinsdale",
+          "address" : "300 E Ogden Ave, Hinsdale, IL 60521",
+          "contact" : "(630) 521-3426"
+        },
+        {
+          "name" : "Land Rover of Naperville",
+          "address" : "1559 W Ogden Ave, Suite A, Naperville, IL 60540",
+          "contact" : "(630) 300-5000"
+        }]
+    },
+    {
+      "company" : "Mercedes-Benz",
+      "image" : "",
+      "url" : "",
+      "dealers" : [
+        {
+          "name" : "Mercedes-Benz of Chicago",
+          "address" : "1520 W North Ave, Chicago, IL 60642",
+          "contact" : "(312) 628-4500"
+        },
+        {
+          "name" : "Loeber Motors",
+          "address" : "4255 Touhy Ave, Lincolnwood, IL 60712",
+          "contact" : "(847) 675-1000"
+        },
+        {
+          "name" : "Mercedes-Benz of Westmont",
+          "address" : "200 E Ogden Ave, Westmont, IL 60559",
+          "contact" : "(630) 537-0313"
+        }]
+    },
+    {
+      "company" : "Jeep",
+      "image" : "",
+      "url" : "",
+      "dealers" : [
+        {
+          "name" : "Marino Chrysler Jeep Dodge",
+          "address" : "5133 W Irving Park Rd, Chicago, IL 60641",
+          "contact" : "(773) 777-2000"
+        },
+        {
+          "name" : "South Chicago Dodge Chrysler Jeep",
+          "address" : "7340 S Western Ave, Chicago, IL 60636",
+          "contact" : "(773) 476-7800"
+        },
+        {
+          "name" : "Hawk Chrysler Dodge Jeep",
+          "address" : "7911 W Roosevelt Rd, Forest Park, IL 60130",
+          "contact" : "(708) 366-1001"
+        }]
+    },
+    {
+      "company" : "Ford",
+      "image" : "",
+      "url" : "",
+      "dealers" : [
+        {
+          "name" : "Bredemann Ford in Glenview",
+          "address" : "2038 Waukegan Rd, Glenview, IL 60025",
+          "contact" : "(847) 510-5585"
+        },
+        {
+          "name" : "Fox Ford Lincoln",
+          "address" : "2501 N Elston Ave, Chicago, IL 60647",
+          "contact" : "(888) 380-8568"
+        },
+        {
+          "name" : "Metro Ford Sales and Service",
+          "address" : "6455 S Western Ave, Chicago, IL 60636",
+          "contact" : "(773) 776-7600"
+        }]
+    },
+    {
+      "company" : "Chevrolet",
+      "image" : "",
+      "url" : "",
+      "dealers" : [
+        {
+          "name" : "Bredemann Chevrolet",
+          "address" : "1401 Dempster St, Park Ridge, IL 60068",
+          "contact" : "(847) 655-1485"
+        },
+        {
+          "name" : "Rogers Chevrolet",
+          "address" : "2720 S Michigan Ave, Chicago, IL 60616",
+          "contact" : "(312) 225-4300"
+        },
+        {
+          "name" : "Kingdom Chevy",
+          "address" : "6603 S Western Ave, Chicago, IL 60636",
+          "contact" : "(877) 921-8488"
+        },
+        {
+          "name" : "Chicago Motors Inc.",
+          "address" : "2553 W Chicago Ave, Chicago, IL 60622",
+          "contact" : "(773) 235-6500"
+        }]
+    },
+    {
+      "company" : "Cadillac",
+      "image" : "",
+      "url" : "",
+      "dealers" : [
+        {
+          "name" : "Greater Chicago Motors",
+          "address" : "1850 N Elston Ave, Chicago, IL 60642",
+          "contact" : "(312) 280-9262"
+        },
+        {
+          "name" : "Shirey Cadillac",
+          "address" : "10125 S Cicero Ave, Oak Lawn, IL 60453",
+          "contact" : "(800) 338-4553"
+        },
+        {
+          "name" : "Grossinger Cadillac",
+          "address" : "6900 McCormick Blvd, Lincolnwood, IL 60712",
+          "contact" : "(800) 989-0313"
+        }]
+    },
+    {
+      "company" : "Ferrari",
+      "image" : "",
+      "url" : "",
+      "dealers" : [
+        {
+          "name" : "Bentlley Gold Coast",
+          "address" : "834 N Rush St, Chicago, IL-60611",
+          "contact" : "(312) 280-4848"
+        }]
+    }]
+}
+

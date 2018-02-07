@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dobaria.akash.cs478.project5.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Select Query:"
+        android:textColor="@android:color/background_dark" />
+
+    <Spinner
+        android:id="@+id/spinner_SelectQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_SelectQuery"
+        android:layout_alignStart="@+id/spinner_SelectQuery"
+        android:layout_below="@+id/spinner_SelectQuery"
+        android:layout_marginTop="11dp"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/spinner_SelectQuery"
+            android:layout_alignStart="@+id/spinner_SelectQuery"
+            android:layout_below="@+id/spinner_SelectQuery"
+            android:layout_marginTop="11dp"
+            android:text="Enter Data:"
+            android:textColor="@android:color/background_dark" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/textView_Year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Year:"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editText_Year"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView_Year"
+                android:layout_alignBottom="@+id/textView_Year"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/textView_Year"
+                android:layout_toRightOf="@+id/textView_Year"
+                android:ems="10"
+                android:hint="Year"
+                android:inputType="textPersonName"
+                android:text="0"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ralativeLayout_ExtraInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/textView_Month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Month:"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editText_Month"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toEndOf="@+id/textView_Month"
+                android:layout_toRightOf="@+id/textView_Month"
+                android:ems="10"
+                android:hint="Month"
+                android:inputType="textPersonName"
+                android:text="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView_Day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editText_Month"
+                android:layout_alignBottom="@+id/editText_Month"
+                android:layout_marginLeft="15dp"
+                android:layout_toEndOf="@+id/editText_Month"
+                android:layout_toRightOf="@+id/editText_Month"
+                android:text="Day:"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editText_Day"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toEndOf="@+id/textView_Day"
+                android:layout_toRightOf="@+id/textView_Day"
+                android:ems="10"
+                android:hint="Day"
+                android:inputType="textPersonName"
+                android:text="0"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView_WorkingDays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toEndOf="@+id/editText_Day"
+                android:layout_toRightOf="@+id/editText_Day"
+                android:text="No. of Working Days:"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editText_WorkingDays"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toEndOf="@+id/textView_WorkingDays"
+                android:layout_toRightOf="@+id/textView_WorkingDays"
+                android:ems="10"
+                android:hint="Number"
+                android:inputType="textPersonName"
+                android:text="0"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_UnboundService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Unbound Service" />
+
+    <Button
+        android:id="@+id/button_SubmitQuery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Submit Query" />
+
+    <Button
+        android:id="@+id/button_ViewQueryResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:text="View Query Results" />
+</RelativeLayout>

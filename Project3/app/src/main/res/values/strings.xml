@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Project3</string>
+    <string-array name="Landmarks">
+        <item>Willis Tower</item>
+        <item>Millennium Park</item>
+        <item>Navy Pier</item>
+        <item>Shedd Aquarium</item>
+        <item>Art Institute of Chicago</item>
+        <item>Field Museum of Natural History</item>
+    </string-array>
+    <string-array name="Websites">
+        <item>http://www.willistower.com/</item>
+        <item>https://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park.html</item>
+        <item>https://navypier.com/</item>
+        <item>https://www.sheddaquarium.org/</item>
+        <item>http://www.artic.edu/</item>
+        <item>https://www.fieldmuseum.org/</item>
+    </string-array>
+    <string name="new_permission">com.cs478.project3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Akash Dhirajlal Dobaria UIN:663179817 -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cs478.akash.cs478_proj2_akash_dobaria">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Cars"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ShowImage" />
+        <activity android:name=".TakeToWeb" />
+        <activity android:name=".Dealers"></activity>
+    </application>
+
+</manifest>

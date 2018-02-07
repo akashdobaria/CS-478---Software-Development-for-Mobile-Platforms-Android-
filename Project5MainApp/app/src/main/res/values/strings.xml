@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project5</string>
+    <string-array name="query_titles">
+        <item id="monthlyCash">The amount of cash at the opening of the first working day of each month</item>
+        <item id="dailyCash">The amount of cash at the opening of the input date and subsequent working days</item>
+        <item id="yearlyAverage">The average of the cash on hand </item>
+    </string-array>
+</resources>

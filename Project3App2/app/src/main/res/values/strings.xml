@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Project3App2</string>
+    <string name="new_permission">com.cs478.project3</string>
+</resources>
